@@ -1,4 +1,5 @@
 import json
+from collections import OrderedDict
 from commands import Menu, Command, ClipboardCommand
 
 class JsonConfig():
@@ -26,6 +27,6 @@ class JsonConfig():
 
     def _load_config(self, config_file_path):
         with open(config_file_path) as f:
-            data = json.load(f)
+            data = json.load(f, object_pairs_hook=OrderedDict)
         return data
         
