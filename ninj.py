@@ -55,7 +55,7 @@ if __name__ == "__main__":
         script_dir = os.path.dirname(os.path.realpath(__file__))
         config_file_path = os.path.join(script_dir, 'ninj_conf.json')
     else:
-        config_file_path = sys.arge[1]
+        config_file_path = sys.argv[1]
     
     top_menu = Menu("Ninj", "A bash helper for people with bad memory.", 
         exclude_back_option=True)
