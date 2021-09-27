@@ -1,0 +1,73 @@
+{
+    "Common" : {
+        "type": "menu",
+        "info": "select command",
+        "items": {
+            "chmod help webpage": {
+                "type": "command",
+                "value": "xdg-open https://ss64.com/bash/chmod.html"
+            }
+        }
+    },
+    "Django" : {
+        "type": "menu",
+        "info": "select command",
+        "items": {
+            "create-project": {
+                "type": "clipboard",
+                "value": "django-admin startproject ..."
+            },
+            "create-app": {
+                "type": "clipboard",
+                "value": "python manage.py startapp"
+            },
+            "create migrations": {
+                "type": "clipboard",
+                "value": "python manage.py makemigrations"
+            },
+            "apply migrations": {
+                "type": "clipboard",
+                "value": "python manage.py migrate"
+            }
+
+        }
+    },
+    "Healthmatters" : {
+        "type": "menu",
+        "info": "select command",
+        "items": {            
+            "activate venv": {
+                "type": "clipboard",
+                "value": "source ./env/bin/activate"
+            },
+            "build": {
+                "type": "command",
+                "value": "ant build -Dpython-version=3"
+            },
+            "gulp": {
+                "type": "command",
+                "value": "gulp"
+            },
+            "gitlab": {
+                "type": "command",
+                "value": "xdg-open https://gitlab.motius.de/external/healthmatters"
+            },
+            "git fetch all": {
+                "type": "command",
+                "value": "git fetch --all"
+            },
+            "runserver": {
+                "type": "clipboard",
+                "value": "python manage.py runserver"
+            },
+            "test": {
+                "type": "clipboard",
+                "value": "py.test"
+            },
+            "timesheet": {
+                "type": "command",
+                "value": "xdg-open https://docs.google.com/spreadsheets/d/1s2sHpK4Odck2C-dj7E5A_I7O12_nuTdgtXUxurYNobY/edit#gid=0"
+            }
+        }
+    }
+}

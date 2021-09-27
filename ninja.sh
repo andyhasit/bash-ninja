@@ -1,0 +1,1 @@
+python ninja.py ~/Documents/ninja_aliases.conf ~/.ninja_aliases

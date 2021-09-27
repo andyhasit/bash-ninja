@@ -1,0 +1,3 @@
+#!/usr/bin/expect -f
+
+send ctrl+v
